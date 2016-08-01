@@ -1,5 +1,181 @@
----
-layout: default
-title: test title
----
-<p>Hello world!</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="信安官网.css" rel="stylesheet">
+	<title>暨南大学15级信息安全</title>
+</head>
+<body>
+<script src="信安官网.js"></script>
+<script src="jquery-2.2.2.min.js"></script>
+<script src="bootstrap.min.js"></script> 
+<div class="container">
+	<div class="row">
+			<div id="title-word" class="hidden-xs"> 欢迎来到暨大15信安！</div>
+	</div>
+			<!--汉堡包式的导航栏-->
+		<div class="row">
+			<div class="navbar navbar-default" id="head-nav" role="navigation">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse hidden-lg">
+			         <span class="sr-only">Toggle Navigation</span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			       </button>
+				 <a href="##" class="navbar-brand">15信安官网</a>
+				 </div>
+
+				<div class="collapse navbar-collapse navbar-responsive-collapse visible-lg">
+					<ul class="nav navbar-nav  animated desktop-menu">
+						<li class="active"><a href="##" data-toggle="dropdown" class="dropdown-toggle">官网首页</a></li>
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">ACM分享<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+						    	</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">CTF黑客攻防战<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">xss跨站脚本攻击<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">论坛分享<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">我们的博客<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##"  onclick="">干货文</a></li>
+									<li><a href="##"  onclick=""></a></li>
+									<li><a href="##"  onclick=""></a></li>
+								</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="container" id="passage">		
+	<div class="row" ><p>一些实用的教学网站</p></div>
+
+	<div class="row">
+		<div class="col-md-3">
+		<a href="#" class="project visible-lg" onclick="w3c()">
+                <div class="thumbnail">
+                  <img src="w3c.jpg" alt="w3c">
+                </div>
+                <div class="overla">
+                  <div class="met">
+                    
+                    <div >全面的网页知识网站,多数时候用来查询</div>
+                  </div>
+                </div>
+		</a>
+		<!--响应式-->
+		<a href="#" class="project hidden-lg" style="width:50%">
+                <div class="thumbnail">
+                  <img src="w3c.jpg" alt="w3c">
+                </div>
+                <div class="overla">
+                  <div class="met">
+                    
+                    <div >全面的网页知识网站,多数时候用来查询</div>
+                  </div>
+                </div>
+
+		</a>
+		<a class="hidden-lg" onclick="w3c()">全面的网页知识网站,多数时候用来查询</a>
+		</div>
+		<div class="col-md-3">
+		<a href="#" class="project visible-lg" onclick="imooc()">
+                <div class="thumbnail">
+                  <img src="imooc.jpg" alt="慕课网">
+                </div>
+                <div class="overla">
+                  <div class="met">
+                    
+                    <div >简单易懂的教学网站！！</div>
+                  </div>
+                </div>
+        </a>
+		
+        <a href="#" class="project hidden-lg" style="width:50%">
+                <div class="thumbnail">
+                  <img src="imooc.jpg" alt="慕课网">
+                </div>
+                <div class="overla">
+                  <div class="met">
+                    
+                    <div >简单易懂的教学网站！！</div>
+                  </div>
+                </div>
+        </a>
+		<a class="hidden-lg" onclick="imooc()">简单易懂的教学网站！！</a>
+		</div>
+	</div>
+
+	<div class="row"><p>一些黑客网站</p></div>
+		
+	<div class="row">
+		<div class="col-md-3">
+		<a href="#" class="project visible-lg" onclick="freebuf()">
+                <div class="thumbnail">
+                  <img src="freebuf.jpg" alt="freebuf">
+                </div>
+                <div class="overla">
+                  <div class="met">
+                    
+                    <div >最新的黑客技术网站！</div>
+                  </div>
+                </div>
+        </a>
+        <a href="#" class="project hidden-lg" style="width:50%">
+                <div class="thumbnail">
+                  <img src="freebuf.jpg" alt="freebuf">
+                </div>
+                <div class="overla">
+                  <div class="met">
+                    
+                    <div >最新的黑客技术网站！</div>
+                  </div>
+                </div>
+        </a>
+        <a class="hidden-lg" onclick="freebuf()">最新的黑客技术网站！</a>
+		</div>
+	</div>
+</div>
+
+
+	
+
+
+
+
+</body>
+</html>
