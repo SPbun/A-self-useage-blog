@@ -24,14 +24,14 @@ img{border-radius: 10%}
 
 .debug{margin-top:10%;margin-bottom: 10%}
 
-#gif{border-radius: 50%}
+#gif{border-radius: 50%;width: 20%;height: 20%}
 
 .haha{margin-bottom: 10%}
 .pd-word3{font-family:Segoe Script;font-size: 400%; }
 
 .pd-word4{font-family:Segoe Script;font-size: 300%; }
 
-.gif1{border-radius: 50%;height: 20%;width: 100%}
+.gif1{border-radius: 50%;height: 20%;width: 100%;width: 20%;height: 20%}
 
 .passage{font-size: 150%;font-family: Verdana;}
 
