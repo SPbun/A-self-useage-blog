@@ -1,0 +1,40 @@
+body{background-color: #FFFFE0}
+
+.star{font-size: 400%;text-align: center;}
+
+.title-word{text-align: center;;border-radius: 20%}
+
+#title-word{font-family:  Segoe Script;font-size: 400%}
+
+.carousel-control{border-radius: 15%}
+
+.container{margin-bottom: 2%}
+
+img{border-radius: 10%}
+
+.carousel-inner{border-radius: 10%}
+
+.pd-word{font-family:Segoe Script;font-size: 300%;margin-bottom: 1%;}
+
+.pd-word2{font-family:Segoe Script;font-size: 200%; }
+
+.word{}
+
+.row{margin-bottom: 2%;text-align: center;}
+
+.debug{margin-top:10%;margin-bottom: 10%}
+
+#gif{border-radius: 50%}
+
+.haha{margin-bottom: 10%}
+.pd-word3{font-family:Segoe Script;font-size: 400%; }
+
+.pd-word4{font-family:Segoe Script;font-size: 300%; }
+
+.gif1{border-radius: 50%;height: 20%;width: 100%}
+
+.passage{font-size: 150%;font-family: Verdana;}
+
+.carousel-inner img{height: 500%;width:500% }
+
+#box-shadow{box-shadow: 4px 4px 4px}
