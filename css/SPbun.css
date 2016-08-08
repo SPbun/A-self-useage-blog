@@ -63,7 +63,7 @@ ul.nav{margin: 0;}
 {	
 	position: absolute;
 	top: 20em;
-	text-align: center;
+	text-align: left;
 	z-index: -3;
 	margin: 5em;
 	border-image:url(pic/heart.png) 30 30 round; 
@@ -72,7 +72,9 @@ ul.nav{margin: 0;}
 
 .word{
 	background-color: #F5FFFA;
-	border-radius: 2%
+	border-radius: 2%;
+	font-size: 1.2em;
+	line-height: 200%;
 }
 
 #myaudio{	
