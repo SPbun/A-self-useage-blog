@@ -1,32 +1,109 @@
-<!doctype html>
+---
+layout: default
+---
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Choice</title>
-	<script type="text/javascript">
-
-	  function to_first_page () 
-{
-	window.location.href="1.html"
-}   
-  function rec(){
-    var mymessage=confirm("霖清霖楚啊！")        ;
-    if(mymessage==true)
-    {
-    	to_first_page();
-    }
-    else
-    {
-        document.write("甘噶大话你都广的出黎？面壁思过之后自己刷新，再比一次机会比你了！");
-    }
-  }
-
-
-  </script>
-
-
+	
+	<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/SPbun.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<title>SPbun</title>
 </head>
 <body>
-	<input name="button" type="button" onClick="rec()"onchange=float value="问题黎啦，我靓唔靓仔啊？" />
+<script src="jquery/jquery.js"></script>
+<script src="javascript/bootstrap.min.js"></script> 
+
+	
+<div class="navbar navbar-default" id="head-nav" role="navigation">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse ">
+			         <span class="sr-only">Toggle Navigation</span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			       </button>
+				 <a href="##"  class="navbar-brand">SPbun</a>
+				 </div>
+
+				<div class="collapse navbar-collapse navbar-responsive-collapse ">
+					<ul class="nav navbar-nav  animated desktop-menu">
+						<li class="active"><a onclick="" href="##" data-toggle="dropdown" class="dropdown-toggle">首页</a></li>
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">ACM分享<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+						    	</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">CTF黑客攻防战<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">xss跨站脚本攻击<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle">论坛分享<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+									<li><a href="##" onclick=""></a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown"> 
+							<a href="##" onclick="" data-toggle="dropdown" class="dropdown-toggle"><span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="##"  onclick=""></a></li>
+									<li><a href="##"  onclick=""></a></li>
+									<li><a href="##"  onclick=""></a></li>
+								</ul>
+						</li>
+					</ul>
+				</div>
+			
+</div>
+
+<div class="mixture">
+<div class="bg">
+	<img class="middle-img" src="pic/true.jpg">
+</div
+>
+<div id="header">
+	<img class="header-img"  src="pic/sp.png">
+	<div class="name">SPbun</div>
+</div>
+
+</div>
+<div class="container passage" style="padding:3em">
+	<div class="row word">
+     <ul>
+   {% for post in site.posts %}
+       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+   {% endfor %}
+</ul>
+
+     </div>
+。<br><br><br>
+
+	
+
+
+
 </body>
 </html>
